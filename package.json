@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dayjs": "^1.10.7",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.4",
+    "mongoose-geojson-schemas": "^0.12.9",
+    "nanoid": "^3.1.30",
+    "pino-pretty": "^7.3.0",
+    "validator": "^13.7.0",
+    "yup": "^0.32.11"
+  },
+  "name": "footmove",
+  "version": "1.0.0",
+  "description": "footmove api for commute management system",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.6"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon App.js"
+  },
+  "author": "arul",
+  "license": "ISC"
+}
