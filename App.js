@@ -31,6 +31,6 @@ mongoose.connect("mongodb://localhost:27017/footmove", null, () => {
   app.use("/api/routeaccess", RouteAccessRouter);
 });
 
-app.listen("3000", (prop) => {
+app.listen(process.env.PORT || "3000", (prop) => {
   console.log("App is listening.." + app.listenerCount());
 });
