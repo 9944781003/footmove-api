@@ -14,7 +14,7 @@ const RouteAccessRouter = require("./src/routers/route-access-router");
 
 const app = express();
 app.get("/", (req, res) => {
-  res.sendStatus(200);
+  res.send("Halo! Welcome to Footmove!");
 });
 mongoose.connect("mongodb://localhost:27017/footmove", null, () => {
   app.use(express.json());
